@@ -5,13 +5,13 @@ This program analyzes DNA sequences to identify a matching profile based on Shor
 ## How to Use
 
 1. **Files Needed**:
-   - A CSV file with DNA profiles (e.g., `data.csv`).
-   - A text file with a DNA sequence (e.g., `sequence.txt`).
+   - A CSV file with DNA profiles (e.g., `database.csv`).
+   - A text file with a DNA sequence (e.g., `1.txt`).
 
 2. **Run the Program**:
    Open your terminal and use the following command:
    ```bash
-   python main.py data.csv sequence.txt
+   python main.py database.csv test sequences/1.txt
 ## How It Works
 
 - The program reads the database of DNA profiles.
